@@ -1,0 +1,92 @@
+
+*{
+    margin-left:0px;
+}
+
+
+.container{
+    height:100%;
+    margin-left:0px;
+  
+}
+#container{
+    margin-left: 0px;
+}
+
+.navbar{
+background-color: white;
+display:inline-block;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.navbar a{
+padding:0px 17px 20px 0px; 
+color: black;
+text-decoration-line: none;
+text-decoration-style:solid ;
+text-decoration-thickness: auto;
+display: inline-block;
+font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+font-weight: 700;
+-webkit-font-smoothing: antialiased;
+}
+
+.desktop-newNavLink {
+display: inline;
+width: 23px;
+height: 12px;
+margin: 0 0 34px -15px;
+font-family: Assistant;
+font-size: 10px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #ff3f6c;
+content: "new";
+}
+.sec{
+ padding : 20px 0  17px 0;
+
+}
+.banner{
+
+padding:0px;
+margin:50px 0px 10px 30px;
+}
+.banner h1{
+
+color: black;
+font-size: 1.8em;
+font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+-webkit-font-smoothing: antialiased;
+font-weight:700;
+}
+
+.catalog{
+display: flex;
+
+padding: 17px 0px 17px 0px;
+}
+
+
+.carousel-container {
+    width: 100%; /* Set the desired width for the carousel */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel img {
+    height: auto;
+    width: 50%; 
+   
+  }
+  
+  
